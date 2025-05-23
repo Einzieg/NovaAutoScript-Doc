@@ -1,33 +1,31 @@
 name: Nova-AutoScript
-title: Nova-AutoScript  使用说明书
-subtitle: 'Nova-AutoScript | 使用说明书'
+title: Nova - AutoScript
+subtitle:
 tags: [开源项目]
 icon: /assets/icon.svg
 cover: /assets/icon.svg
 coverpage: true
-description:
-repo: xaoxuu/hexo-theme-Nova-AutoScript
+description: Nova-AutoScript 是基于图像识别 + 模拟控制的自动化应用，解放双手!
+repo: Einzieg/AutoNovaGui
 search:
   filter: /
-  placeholder: 在 Nova-AutoScript 中搜索...
+  placeholder: 搜索关键字...
 sidebar: 
   - toc
-  - timeline_Nova-AutoScript_releases
-  - timeline_Nova-AutoScript_more
+  - timeline_stellar_releases
+  - timeline_stellar_more
   - related
-comment_title: '评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-Nova-AutoScript/issues) 反馈。'
-comments:
-  service: giscus
-  giscus:
-    data-repo: xaoxuu/hexo-theme-Nova-AutoScript
-    data-mapping: number
-    data-term: 226
+#comment_title: '评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues) 反馈。'
+#comments:
+#  service: giscus
+#  giscus:
+#    data-repo: Einzieg/AutoNovaGui
+#    data-mapping: number
+#    data-term: 226
 
 base_dir: /
 toc:
-  '快速开始':
+  '开始':
     - index
+  '其它':
     - releases
-  '社区':
-    - examples
-    - articles

@@ -3,13 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Stellar
-subtitle: '每个人的独立博客 | Designed by xaoxuu'
+title: Nova-AutoScript
+subtitle:
 description: ''
 keywords:
 author: Einzieg
 language: zh-CN
 timezone: ''
+favicon: .source/assets/icon.ico
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -82,6 +83,12 @@ date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
 updated_option: 'mtime'
+
+inject:
+  head:
+    - <link rel="preconnect" href="https://s1.hdslb.com/" />
+    - <link rel="stylesheet" href="//s1.hdslb.com/bfs/static/jinkela/long/font/medium.css" media="all" onload="this.media='all'" />
+    - <link rel="stylesheet" href="//s1.hdslb.com/bfs/static/jinkela/long/font/regular.css" media="all" onload="this.media='all'" />
 
 # Pagination
 ## Set per_page to 0 to disable pagination

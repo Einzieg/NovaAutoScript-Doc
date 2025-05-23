@@ -1,7 +1,7 @@
 ---
 layout: wiki
-wiki: 
-title: ""
+wiki: hexo-stellar
+title: 使用指南
 sidebar: 
   - toc
   - timeline_stellar_releases

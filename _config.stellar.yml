@@ -22,3 +22,6 @@ style:
     bar: 4px
     card: 4px
     block: 4px
+  font-family:
+    logo: 'HarmonyOS_Regular'
+    body: 'HarmonyOS_Regular'
