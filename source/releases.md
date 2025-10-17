@@ -4,9 +4,7 @@ wiki: hexo-stellar
 title: 更新日志与注意事项
 ---
 
-{% folding 项目文档 %}
-{% md https://raw.githubusercontent.com/Einzieg/Nova-AutoScript/master/README.md %}
-{% endfolding %}
+
 
 版本命名规范：{% mark 大版本 color:red %} {% mark 小版本 color:yellow %} {% mark 修复版本 color:green %}
 - {% mark 大版本 color:red %}：较大范围改动和设计调整、重构
