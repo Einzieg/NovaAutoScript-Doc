@@ -5,7 +5,7 @@ title: 更新日志与注意事项
 ---
 
 {% folding 项目文档 %}
-{% md https://raw.githubusercontent.com/Einzieg/AutoNovaGui/master/Readme.md %}
+{% md https://raw.githubusercontent.com/Einzieg/Nova-AutoScript/master/README.md %}
 {% endfolding %}
 
 版本命名规范：{% mark 大版本 color:red %} {% mark 小版本 color:yellow %} {% mark 修复版本 color:green %}
@@ -14,5 +14,5 @@ title: 更新日志与注意事项
 - {% mark 修复版本 color:green %}：仅包含修复或代码优化，可放心无缝升级
 
 
-{% timeline api:https://api.github.com/repos/Einzieg/AutoNovaGui/releases?per_page=10 %}
+{% timeline api:https://api.github.com/repos/Einzieg/Nova-AutoScript/releases?per_page=10 %}
 {% endtimeline %}
